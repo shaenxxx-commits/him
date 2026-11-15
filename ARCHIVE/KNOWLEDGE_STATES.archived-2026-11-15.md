@@ -1,3 +1,7 @@
+ARCHIVED: 2026-11-15
+REASON: Ревизия A — сокращение документации (I17). Содержание слито в: INVARIANTS.md, records/README.md.
+SUPERSEDED BY: INVARIANTS.md, records/README.md
+
 # docs/KNOWLEDGE_STATES.md
 
 Модель состояний знания HIM (двумерная). Одно утверждение может иметь и эпистемический статус, и тип.

@@ -1,3 +1,7 @@
+ARCHIVED: 2026-11-15
+REASON: Ревизия A — сокращение документации (I17). Содержание слито в: INVARIANTS.md, records/README.md.
+SUPERSEDED BY: INVARIANTS.md, records/README.md
+
 # PROVENANCE.md
 
 Прослеживаемость значимых утверждений HIM (I4). Append-only.

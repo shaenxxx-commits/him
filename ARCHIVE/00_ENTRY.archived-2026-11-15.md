@@ -1,3 +1,7 @@
+ARCHIVED: 2026-11-15
+REASON: Ревизия A — сокращение документации (I17). Содержание слито в: README.md, INVARIANTS.md.
+SUPERSEDED BY: README.md, INVARIANTS.md
+
 # 00_ENTRY.md
 
 Точка входа для LLM-агентов. Читать первым.

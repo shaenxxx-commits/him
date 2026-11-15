@@ -1,3 +1,7 @@
+ARCHIVED: 2026-11-15
+REASON: Ревизия A — сокращение документации (I17). Содержание слито в: records/README.md.
+SUPERSEDED BY: records/README.md
+
 # templates/README.md
 
 Шаблоны записей HIM. Копировать блок целиком, не фрагмент.

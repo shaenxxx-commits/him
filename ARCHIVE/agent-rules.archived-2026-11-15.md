@@ -1,3 +1,7 @@
+ARCHIVED: 2026-11-15
+REASON: Ревизия A — сокращение документации (I17). Содержание слито в: INVARIANTS.md.
+SUPERSEDED BY: INVARIANTS.md
+
 # meta/agent-rules.md
 
 Правила работы LLM-агента в HIM. Применяется наравне с `INVARIANTS.md`.
