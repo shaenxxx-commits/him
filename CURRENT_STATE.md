@@ -6,27 +6,27 @@
 2026-11-15
 
 ## Этап
-Setup-ран (v0.1). Ядро создано, зеркало подключено. Библиотека подключена частично (Блок A). Готовится Блок B.
+Setup-ран (v0.1) завершён. Ядро + библиотека подключены. Готов к полевому рану.
 
 ## Что сделано
-- Создан локальный git-репозиторий `~/him`, ветка `main`.
+- Репозиторий `~/him`, ветка `main`, зеркало `shaenxxx-commits/him` (public). Первый коммит `512ae75`.
 - Ядро: `README.md`, `INVARIANTS.md`, `CURRENT_STATE.md`, `DECISIONS.md`.
-- Активная библиотека: `00_ENTRY.md`, `docs/VISION.md`, `docs/ROLES.md`.
-- Первый коммит `512ae75`, зеркало `shaenxxx-commits/him` (public) подключено, push верифицирован.
-- Блок A: `docs/KNOWLEDGE_STATES.md` (0ab1a06), `meta/transitions.md` (0502063), `meta/open-questions.md` (4eadde9), `PROVENANCE.md` (f8b4a91), `records/README.md` (3c20039). HEAD = origin/main = 3c20039.
+- Активная библиотека setup: `00_ENTRY.md`, `docs/VISION.md`, `docs/ROLES.md`, `docs/KNOWLEDGE_STATES.md`, `docs/METHOD.md`, `meta/transitions.md`, `meta/open-questions.md`, `meta/agent-rules.md`, `meta/handoff-protocol.md`, `meta/handoff-current.md`, `PROVENANCE.md`, `records/README.md`, `templates/README.md`, `ARCHIVE/README.md`.
+- Реестры: `records/figurants.md`, `records/claims.md`, `records/hypotheses.md`, `records/links.md`.
+- Блок A: 0ab1a06..3c20039; A-фикс: 8acb539, 402bb9f; B1: f960164, e626b2e; B2: 9 коммитов, HEAD после блока — см. git log -1 --oneline.
 
 ## В работе
-- Блок B: `docs/METHOD.md`, `meta/agent-rules.md`, `meta/handoff-protocol.md`, `meta/handoff-current.md`, `templates/README.md`, `ARCHIVE/README.md`, реестры `records/figurants.md`, `records/claims.md`, `records/hypotheses.md`, `records/links.md`.
+Полевой ран 1 — исходная точка: НАБУ, «Химпром», Егор Буркин, предполагаемые связи с правоохранителями.
 
 ## Заблокировано
 Нет.
 
 ## Следующее действие
-Получить Блок B от Ведущего, применить, коммит, push, отчёт.
+Ведущий готовит FIELD-рамку Рана 1 и задание внешним (GPT, Grok, Sakana — независимо; Kimi K2 — отдельный контур аудита).
 
 ## Известные проблемы
 Нет.
 
 ## Известные неизвестные (UNKNOWN)
-- Состав и содержание исходного поля (публикации НАБУ, «Химпром», Буркин) — на момент setup не собраны.
-- Рабочий канал Kimi K2 и прогонных (GPT, Grok, Sakana) — не зафиксирован решением.
+- Рабочий канал Kimi K2 и прогонных — не зафиксирован решением.
+- Конкретный состав материалов по исходной точке — не собран.
