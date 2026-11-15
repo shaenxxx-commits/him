@@ -92,3 +92,30 @@
 - **Условие пересмотра:** уточнение Архитектора; появление данных, меняющих рамку.
 - **Связанные:** `docs/VISION.md`, `D-20261115-01`, `records/001`.
 - **Заменяет:** —
+
+---
+
+### D-20261115-03 — Ревизия A: сокращение документации до 11 файлов
+
+- **Статус:** accepted
+- **Дата:** 2026-11-15
+- **Утверждающий:** Архитектор
+- **Контекст:** Аудит Kimi K2 (2026-11-15) зафиксировал нарушение I17: 18+ документов
+  на setup, 10 пустых/почти пустых. Run 1 подтвердил: часть документов не использовалась.
+  Ресурсы уходят на фиксацию шума вместо расследования.
+- **Решение:**
+  1. Архивировать (не удалять): 00_ENTRY, ROLES, KNOWLEDGE_STATES, agent-rules,
+     handoff-protocol, handoff-current, templates/README, PROVENANCE, claims,
+     open-questions.
+  2. Слить: ROLES → README; agent-rules + KNOWLEDGE_STATES + handoff-protocol →
+     INVARIANTS; templates → records/README; open-questions → CURRENT_STATE.
+  3. Расширить I3: [ОПРОВЕРГНУТО], документ≠содержание, официальность — фактор,
+     не критерий; флаг [ЗАИНТЕРЕСОВАННАЯ СТОРОНА].
+  4. Оставить 11 рабочих файлов: README, INVARIANTS, CURRENT_STATE, DECISIONS,
+     docs/VISION, docs/METHOD, meta/transitions, records/README, figurants,
+     hypotheses, links.
+- **Основание:** аудит Kimi K2; Run 1; указание Архитектора.
+- **Последствия:** I17 соблюдён. Новые документы — только по реальной потребности.
+- **Условие пересмотра:** появление потребности в handoff / PROVENANCE / claims.
+- **Связанные:** все перечисленные файлы, ARCHIVE/README.
+- **Заменяет:** —
